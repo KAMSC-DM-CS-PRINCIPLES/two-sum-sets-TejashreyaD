@@ -1,4 +1,4 @@
-def two_sum_pairs((numbers, target):
+def two_sum_pairs(numbers, target):
     pairs=[]
     for i in range(len(numbers)):
         for j in range(i+1, len(numbers)):
