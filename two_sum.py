@@ -4,3 +4,4 @@ def twoSum(numbers, target):
         for j in range(i+1, len(numbers)):
             if numbers[i] + numbers[j] == target:
                 pairs.append({numbers[i], numbers[j]}) 
+    return pairs
